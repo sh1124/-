@@ -1,1 +1,8 @@
 https://github.com/sh1124/szj
+
+git init //初始化git
+git add . //将文件提交到暂存区，注意有一个数字点的符号
+git commit -m "说明" //上传备注说明
+//链接远程仓库地址，在你的Github项目里有个clone and download
+git remote add origin "****"
+git push origin master //上传本地文件到远程Github仓库
