@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <ul class="ul">
+            <li id="clear">
+                <img src="1.png" alt="">
+                <div class="div1">
+                    <h3>前段开发学习手册</h3>
+                    <p>2019.12.23</p>
+                    <button>阅读</button>
+                </div>
+            </li>
+            <li id="clear">
+                <img src="1.png" alt="">
+                <div class="div1">
+                    <h3>前段开发学习手册</h3>
+                    <p>2019.12.23</p>
+                    <button>阅读</button>
+                </div>
+            </li>
+            <li id="clear">
+                <img src="1.png" alt="">
+                <div class="div1">
+                    <h3>前段开发学习手册</h3>
+                    <p>2019.12.23</p>
+                    <button>阅读</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .div1 {
+        width: 567px;
+        height: 152px;
+        float: right;
+    }
+
+    .content {
+        width: 800px;
+        height: 600px;
+        margin: auto;
+    }
+
+    .ul {
+        padding-top: 20px;
+    }
+
+    li {
+        width: 800px;
+        height: 152px;
+        list-style: none;
+        margin-bottom: 50px;
+    }
+
+    #clear:before,
+    #clear:after {
+        content: "";
+        display: block;
+        height: 0;
+        overflow: hidden;
+        clear: both;
+    }
+
+    img {
+        float: left;
+    }
+
+    h3 {
+        margin-top: 10px;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+</style>
+
+</html>
